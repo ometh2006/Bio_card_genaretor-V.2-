@@ -5,7 +5,7 @@ from tkinter import Text, ttk
 window=tk.Tk()
 window.title("Biocar genaretor")
 window.geometry('600x400')
-gret=tk.Label(text="WELCOME TO ALPAHSOFT")
+gret=tk.Label(text="WELCOME ")
 gret.pack()
 btn = ttk.Button(window,text='Close',command=window.quit)
 btn.pack()
@@ -92,7 +92,7 @@ login_button.pack(fill='x', expand=True, pady=10)
 devlable=ttk.Frame(window)
 devlable.pack(padx=10, pady=10, fill='x', expand=True)
 
-Dev_lable=ttk.Label(biocard,text='Copyright © 2023 By AlphaSoft.',background='tomato',foreground='white')
+Dev_lable=ttk.Label(biocard,text='Copyright © 2023 By ΣD.',background='tomato',foreground='white')
 
 Dev_lable.pack(padx=0, pady=10,  fill='x', expand=True)
 
